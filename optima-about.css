@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding:0;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
+
+
+/*--------------------------------------- Header top start--------------------------------------------------*/
+
+.header_top{
+    width: 1360px;
+    height: 46px;
+    background-color: rgba(245,245,245,1);
+    color:#42474c;
+    display: flex;
+    justify-content: space-around;
+
+
+
+}
+.header_top_text_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 60px;
+    font-family:  Calibri;
+}
+
+.header_top_location_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    font-family: calibri;
+}
+
+.header_top_mail_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+    margin-right: 20px;
+    padding: 5px 10px;
+    font-family: calibri;
+    cursor: pointer;
+}
+.fas fa-times-circle{
+    color: blue;
+}
+.far fa-times{
+    color: white;
+}
+
+.fa {
+  color: #007cba;
+    margin-right: 5px;
+}
+
+.header_top_request_component{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 140px;
+    font-family: calibri;
+}
+
+/*--------------------------------------------- Header top finish-----------------------------------------*/
+
+
+/* ----------------------------------------------Header start---------------------------------------------*/
+
+.header{
+    height: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    
+
+}
+
+.header_logo{
+    margin-left: 60px;
+    margin-top: 19px;
+}
+
+.header_call_mobile{
+    margin-right: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    font-family: calibri;
+}
+
+.number{
+    color: #4eaac8;
+    font-size: 30px;
+    font-family: calibri;
+}
+
+.call{
+    color: #007cba;
+    font-size: 30px;
+    font-family: calibri;
+}
+
+.header_button{
+    width: 244px;
+    height: 57px;
+    background-color: #4eaac8;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-right: 120px;
+    font-family: Calibri;
+    cursor: pointer;
+
+}
+
+/*----------------------------------------- Header finish-----------------------------------------------*/
+
+
+/* -------------------------------------------Navbar start------------------------------------*/
+nav{
+    height: 45px;
+    border-top: 1px solid rgb(236,239,241,1);
+}
+.navbar{
+    width: 1366px;
+    float: left;
+    padding-left: 60px;
+    display: flex;
+    height: 40;
+}
+.navbar_left_side{
+    font-size:16px;
+    font-family: calibri;
+    color: #42474c;
+}
+
+navbar_component{
+    list-style: none;
+    padding-right: 5px;
+    font-size: 16px;
+    font-family: lato;
+    color: #42474c;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/*--------------------------------------------- Navbar finish-----------------------------------------*/
+
+
+/*------------------------------------------------About start--------------------------------------------*/
+
+/*------------------------------------------------About finish-----------------------------------------------*/
+
+/*-----------------------------------------Footer start-----------------------------------------------*/
+
+
+
+.footer{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #041e27;
+    text-align: left;
+    text-emphasis-color: white;
+}
+
+.footer_component_about{
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.footer_component_blog{
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.footer_component_contact{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+}
+
+.footer_logo_about_information{
+    width: 190px;
+    color:#ffffff;
+    font-size:18px ;
+    font-family: lato;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.static_chapter{
+    margin-top: 15px;
+    font-size: 18px;
+}
+/*------------------------------------Footer finish---------------------------------------------------------*/
+
+
